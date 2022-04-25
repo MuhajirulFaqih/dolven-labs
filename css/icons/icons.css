@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "icons";
+    src: url("./icons.eot?43f8149f7b963128c8d600a0df632efe?#iefix") format("embedded-opentype"),
+url("./icons.woff2?43f8149f7b963128c8d600a0df632efe") format("woff2"),
+url("./icons.woff?43f8149f7b963128c8d600a0df632efe") format("woff"),
+url("./icons.ttf?43f8149f7b963128c8d600a0df632efe") format("truetype"),
+url("./icons.svg?43f8149f7b963128c8d600a0df632efe#icons") format("svg");
+}
+
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-account_balance_wallet:before {
+    content: "\f101";
+}
+.icon-add:before {
+    content: "\f102";
+}
+.icon-call_made:before {
+    content: "\f103";
+}
+.icon-card_travel:before {
+    content: "\f104";
+}
+.icon-chat:before {
+    content: "\f105";
+}
+.icon-chevron_left:before {
+    content: "\f106";
+}
+.icon-close:before {
+    content: "\f107";
+}
+.icon-date_range:before {
+    content: "\f108";
+}
+.icon-facebook:before {
+    content: "\f109";
+}
+.icon-filter_none:before {
+    content: "\f10a";
+}
+.icon-github:before {
+    content: "\f10b";
+}
+.icon-medium:before {
+    content: "\f10c";
+}
+.icon-place:before {
+    content: "\f10d";
+}
+.icon-poll:before {
+    content: "\f10e";
+}
+.icon-search:before {
+    content: "\f10f";
+}
+.icon-stars:before {
+    content: "\f110";
+}
+.icon-telegram:before {
+    content: "\f111";
+}
+.icon-timer:before {
+    content: "\f112";
+}
+.icon-tune:before {
+    content: "\f113";
+}
+.icon-twitter:before {
+    content: "\f114";
+}
+.icon-view_module:before {
+    content: "\f115";
+}
+.icon-view_stream:before {
+    content: "\f116";
+}
+.icon-visibility:before {
+    content: "\f117";
+}
+.icon-whatshot:before {
+    content: "\f118";
+}
