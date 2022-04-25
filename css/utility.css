@@ -40,6 +40,8 @@
 .color-grey-3 { color: #656565 !important;}
 .color-grey-4 { color: #767676 !important;}
 .color-grey-5 { color: #9C9C9C !important; }
+.color-grey-6 { color: #CBC8C8 !important; }
+.color-green { color: #09A433 !important; }
 .color-gradient { 
     background: linear-gradient(92.4deg, #B19FFB 2.18%, #FF3C96 133.9%);
     -webkit-background-clip: text;
@@ -56,6 +58,9 @@
 .bg-grey-2 { background: #0D0D0D !important; }
 .bg-grey-3 { background: #171717 !important; }
 .bg-grey-4 { background: #212121 !important; }
+.bg-grey-5 { background: #262626 !important; }
+.bg-grey-6 { background: #242424 !important; }
+.bg-green { background: #09A433 !important; }
 .bg-extrablack { background: #000000 !important; }
 .bg-black { background: #101010 !important; }
 .bg-background { background: #0D0F0E !important; }
@@ -66,11 +71,17 @@
 .bg-gradient-one { background: linear-gradient(90deg, #BB93FD 0%, #DF66D6 100%) !important; }
 .bg-gradient-two { background: linear-gradient(90deg, #FE026F 0%, #FF449C 100%) !important; }
 .border-primary { border: 1px solid #FE026F !important; }
+.border-green { border: 1px solid #09A433 !important; }
 .border-gradient { 
     padding: 1px;
     background: linear-gradient(90deg, #BB93FD 0%, #DF66D6 100%);
 }
 .border-dash-primary { border: 1px dashed #FE026F !important; }
+.border-dash-gradient { 
+    border: 1px dashed;
+    background: linear-gradient(#101010,#101010) padding-box /* Don't extend this to border */,
+    linear-gradient(90deg, #BB93FD 0%, #DF66D6 100%) border-box; /*Border-box is not need as it's the default value*/
+}
 .border-none { border: none !important; }
 
 /* Others */
@@ -83,9 +94,11 @@ a { color: inherit !important; }
 .rounded-10 { border-radius: 10px; }
 .rounded-sharp-left-10 { border-radius: 0px 10px 10px 0px; }
 .rounded-sharp-right-10 { border-radius: 10px 0px 0px 10px; }
+.w-10 { width: 10px; }
 .w-16 { width: 16px; }
 .w-24 { width: 24px; }
 .w-32 { width: 32px; }
+.h-10 { height: 10px; }
 .step_box { min-height: 300px; }
 .dolven-progress-bar {
     border: 1px solid 393939;
@@ -94,6 +107,10 @@ a { color: inherit !important; }
 }
 .dolven-progress-bar .progress-bar {
     background-color: #FF55A3;
+    border-radius: 30px;
+}
+.dolven-progress-bar-two .progress-bar {
+    background-color: #BB93FD;
     border-radius: 30px;
 }
 .dolven-input-group {
@@ -164,6 +181,10 @@ a { color: inherit !important; }
 .pagination.dolven-pagination li a.active {
     background: linear-gradient(90deg, #BB93FD 0%, #DF66D6 100%);
     color: #FFFFFF !important;
+}
+
+.table>:not(caption)>*>* {
+    border-color: #1C1C1C;
 }
 
 /* `sm` applies to small devices (landscape phones, less than 576px) */
