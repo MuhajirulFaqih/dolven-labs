@@ -217,6 +217,7 @@ a { color: inherit !important; }
 
 /* `xl` applies to large devices (desktops, less than 1200px) */
 @media (min-width: 1200px) {
+    .fs-xl-14 { font-size: 14px; }
     .fs-xl-70 { font-size: 70px; }
     .fs-xl-38 { font-size: 38px; }
 }
