@@ -94,11 +94,13 @@ a { color: inherit !important; }
 .rounded-10 { border-radius: 10px; }
 .rounded-sharp-left-10 { border-radius: 0px 10px 10px 0px; }
 .rounded-sharp-right-10 { border-radius: 10px 0px 0px 10px; }
+.rounded-sharp-bottom-10 { border-radius: 10px 10px 0px 0px; }
 .w-10 { width: 10px; }
 .w-16 { width: 16px; }
 .w-24 { width: 24px; }
 .w-32 { width: 32px; }
 .h-10 { height: 10px; }
+.h-185 { height: 185px; }
 .step_box { min-height: 300px; }
 .dolven-progress-bar {
     border: 1px solid 393939;
